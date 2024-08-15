@@ -9,6 +9,19 @@ This project is part of the 2024 Kaggle Playground Series, aimed at predicting w
 
 Our objective was to compare the effectiveness of different regression techniques (Linear, Lasso, Ridge, Logistic, Random Forest, Gradient Boosting) and a neural network model optimized with Adam on predicting customer churn. We employed hyperparameter tuning to optimize the performance of these models and compared them based on their accuracy, precision, recall, and F1-score.
 
+## Reproducing 
+
+Clone and navigate to the repository
+```
+git clone https://github.com/juliangus12/Bank_Customer_Churn_Prediction.git
+cd Bank_Customer_Churn_Prediction
+```
+Make the shell script executable and run it
+```
+chmod +x run_churn_prediction.sh
+./run_churn_prediction.sh
+```
+
 ## Data:
 - **Dataset**: [Bank Customer Churn Dataset](https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset)
 - **Competition Link**: [Classify Customers to Predict Bank Customer Churn](https://www.kaggle.com/competitions/classify-customers-to-predict-bank-customer-churn/overview)
